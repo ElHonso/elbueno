@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NOTAS</title>
+    <link rel="stylesheet" type="text/css" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <meta charset= "utf=8">
+</head>
+<body>
+<div id="body-header">
+    <h1>Bloc Notas</h1>
+</div>
+<div id="middleContainer">
+    <div class="msj">Escribe algo en la nota</div>
+    <div id="notasContainer">
+        <div id="formContainer">
+            <div id="formNotas">
+                <label for="">Titulo</label>
+                <input type="text" name="" id="inputTitulo">
+                <label for="">Contenido</label>
+                <textarea id="inputContenido" name="contenido" rows="13" cols="50"></textarea>
+                    <label for="">Tipo</label>
+                    <select name="select" id="inputTipo">
+                        <option value="value1">Tarea</option> 
+                        <option value="value2" selected>Trabajo</option>
+                        <option value="value3">Personal</option>
+                    </select>
+    
+              <button id="botonEnviar" onclick="addNota()">Añadir</button>
+                </div>
+    
+        </div>
+    </div>
+    <div id="pizzaronContainer">
+        <div id="pizzaron">
+           <!-- <div class="nota">
+            <p>Tarea1</p>
+            <div class="contenedorDescripcion">
+            <p>Ejemplo</p>
+            </div>
+           </div> -->
+        </div>
+            
+        
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="./funciones.js"></script>\
+
+</html>
